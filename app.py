@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import io
 
-st.title("Restoran Adı Eşleştirme AI Agent")
+st.title("Restoran Adı Eşleştirme")
 
 uploaded_file = st.file_uploader("Excel dosyasını yükleyin (tygo_restaurant_name, restaurant_name, restaurant_code sütunlarını içermeli)", type=["xlsx"])
 
